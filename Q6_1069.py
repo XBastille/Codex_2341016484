@@ -1,3 +1,6 @@
+#Name:-Bibhor Puhan
+#reg. no:-2341016484
+
 def repetitions(chara):
     count=1  
     max_count=1
