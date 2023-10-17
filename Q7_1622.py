@@ -1,3 +1,6 @@
+#Name:-Bibhor Puhan
+#reg. no:-2341016484
+#https://cses.fi/problemset/task/1622
 from itertools import permutations
 def perm(word):
     q=tuple(permutations(word))
