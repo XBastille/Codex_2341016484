@@ -1,6 +1,6 @@
 #Name:-Bibhor Puhan
 #reg. no:-2341016484
-
+#https://cses.fi/problemset/task/1069
 def repetitions(chara):
     count=1  
     max_count=1
