@@ -2,7 +2,7 @@
 #reg. no:-2341016484
 #https://cses.fi/problemset/task/1092
 def partition(num): 
-    total=(n*(n + 1))//2
+    total=(num*(num + 1))//2
     if total%2!=0:
         print("NO")
     else:
@@ -11,7 +11,7 @@ def partition(num):
         l1=[]
         l2=[]
         cs=0
-        for i in range(n, 0, -1):
+        for i in range(num, 0, -1):
             if cs+i<=p:
                 l1.append(i)
                 cs+=i
