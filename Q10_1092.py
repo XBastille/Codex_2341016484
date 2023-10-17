@@ -1,3 +1,6 @@
+#Name:-Bibhor Puhan
+#reg. no:-2341016484
+#https://cses.fi/problemset/task/1092
 def partition(num): 
     total=(n*(n + 1))//2
     if total%2!=0:
