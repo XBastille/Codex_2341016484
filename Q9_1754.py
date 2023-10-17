@@ -2,7 +2,7 @@
 #reg. no:-2341016484
 #https://cses.fi/problemset/task/1754
 def check(a, b):
-    if all((a+b)%3==0, a*2>=b, b*2>=a):
+    if (a+b)%3==0 and a*2>=b and b*2>=a:
         l2.append("YES")
     else:
         l2.append("NO")
